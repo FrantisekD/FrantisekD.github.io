@@ -1,7 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
-<head></head>
+<html>
+<head>
+  <title>Bootstrap Landing Page Website Tutorial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
 <body>
-  <p>First run</p>
-  </body>
-</html>  
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+   <div class="container-fluid">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/w3newbie.png">
+          </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse-main">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a class="active" href="#about">About</a></li>
+          <li><a class="active" href="#projects">Projects</a></li>
+          <li><a class="active" href="#blog">Blogs</a></li>
+          <li><a class="active" href="#contact">Contact</a></li>
+        </ul>
+
+      </div>
+   </div>
+</nav>
+
+<div id="home">
+    <div class="landing-text">
+        <h1>BOOTSTRAP</h1>
+        <h3>Lear hovno</h3>
+        <a href="#" class="btn btn-default btn-lg">Get</a>
+    </div>
+</div>
+<section id="about">
+<div class="padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <a href="projects.html">
+          <img src="img/bootstrap.png" title="BOOTSTRAP">
+        </a>
+
+      </div>
+      <div class="col-sm-6 text-center">
+          <h2>Tu je to</h2>
+          <p class="lead">lorem uisaddas asd as </p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="projects">
+<div class="padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hvrbox">
+	<img src="img/less.png" alt="Mountains" class="hvrbox-layer_bottom">
+	<div class="hvrbox-layer_top">
+		<div class="hvrbox-text">Lorem ien non.
+      <a href="#">Clikni</a>
+    </div>
+	</div>
+</div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <h4>Prvy</h4>
+        <p>tu nieco napisem</p>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<div id="fixed">
+</div>
+
+<section id="contact">
+<footer class="container-fluid text-center">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Contact us</h3>
+      <br>
+      <h4>Our address</h4>
+    </div>
+    <div class="col-sm-4">
+      <h3>Connect</h3>
+      <a href="mailto:frantisek.durana@azet.sk" class="fa fa-at"></a>
+      <a href="https://github.com/FrantisekD" class="fa fa-github"></a>
+      <a href="https://www.linkedin.com/in/frantisek-durana/" class="fa fa-linkedin"></a>
+    </div>
+    <div class="col-sm-4">
+      <img src="img/b.png" class="icon">
+    </div>
+  </div>
+
+</footer>
+</section>
+</body>
+</html>
+
+
+
+
+<!--- iOS Landing Page Fix
+<section>
+	<div class="landing-text">
+		<h1>BOOTSTRAP</h1>
+		<h3>Learn the basic building blocks.</h3>
+		<a href="#" class="btn btn-default btn-lg">Get Started</a>
+	</div>
+	<div class="home-wrap">
+        <div id="home">
+		</div>
+    </div>
+</section>
+-->
+
+<!--- iOS Fixed Image Fix
+<figure>
+	<div class="fixed-wrap">
+        <div id="fixed">
+		</div>
+    </div>
+</figure>
+-->
+
+
+
+
+
+<!--- Check out my Bootstrap 4 Courses! -->
