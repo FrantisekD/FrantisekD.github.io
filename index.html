@@ -15,22 +15,26 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
    <div class="container-fluid">
       <div class="navbar-header">
+
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="img/w3newbie.png">
+          <a class="navbar-brand" href="#"><img src="img/icon.png">
+          </a>
+          <a class="navbar-brand" href="#"><p>František <b>Ďurana</b></p>
           </a>
       </div>
       <div class="collapse navbar-collapse" id="navbar-collapse-main">
         <ul class="nav navbar-nav navbar-right">
-          <li><a class="active" href="#">Home</a></li>
-          <li><a class="active" href="#about">About</a></li>
-          <li><a class="active" href="#projects">Projects</a></li>
-          <li><a class="active" href="#blog">Blogs</a></li>
-          <li><a class="active" href="#contact">Contact</a></li>
+          <li><a class="active" href="#">Domov</a></li>
+          <li><a class="active" href="#about">O mne</a></li>
+          <li><a class="active" href="#cv">Životopis</a></li>
+          <li><a class="active" href="#projects">Projekty</a></li>
+          <li><a class="active" href="#blog">Blog</a></li>
+          <li><a class="active" href="#contact">Kontakt</a></li>
         </ul>
 
       </div>
@@ -41,7 +45,7 @@
     <div class="landing-text">
         <h1>BOOTSTRAP</h1>
         <h3>Lear hovno</h3>
-        <a href="#" class="btn btn-default btn-lg">Get</a>
+        <a href="#about" class="btn btn-default btn-lg">Zistiť viac</a>
     </div>
 </div>
 <section id="about">
@@ -50,20 +54,84 @@
     <div class="row">
       <div class="col-sm-6">
         <a href="projects.html">
-          <img src="img/bootstrap.png" title="BOOTSTRAP">
+          <img src="img/me.png" title="Toto som ja">
         </a>
 
       </div>
       <div class="col-sm-6 text-center">
-          <h2>Tu je to</h2>
-          <p class="lead">lorem uisaddas asd as </p>
+          <h2>Niečo o mne</h2>
+          <p class="lead">Som študent STU, na ktorej už štvrtý rok spoznávam krásy informatiky a informačných technológií.
+            Najviac ma baví a zaujíma vývoj a implementácia aplikácií, najmä ich grafického rozhrania, kde sa môžem naplno angažovať.
+            Pri práci rád spoznávam nové a progresívne technológie, ktoré zvyšujú moje možnosti. :)</p>
+          <p class="lead">
+              Popri informatike sa samozrejme snažím venovať aj iným aspektom života. Milujem prechádzky v prírode, cestovanie a s tým
+              spojené objvavovanie nových miest. Vo voľnom čase sa zaujímam o históriu, najviac ma fascinuje obdobie druhej svetovej vojny.
+              Okrem toho nepohrdnem dobrou knihou, ideálne motivačnou alebo ezoterickou. A samozrejme, život si treba vychutnať. :)
+          </p>
       </div>
     </div>
   </div>
 </div>
 </section>
 
-<section id="projects">
+<section id="cv">
+<div class="padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2>Životopis v skratke</h2>
+        <h4>Štúdium:</h4>
+        <p class="lead"> <b>2015 - 2018</b> 	STU, FIIT (Bratislava)
+          <br>
+	           Odbor: Informatika (bakalársky stupeň štúdia)
+        </p>
+          <p class="lead"><b>Bakalárska práca:</b> Detekcia dopravných prostriedkov
+              <br>
+              <i> - PHP, MySQL, Arduino, HTML + CSS</i>
+              </p>
+
+        <p class="lead"> <b>2015 - súčasnosť </b> STU, FIIT (Bratislava)
+          <br>
+          Odbor: Inteligentné softvérové systémy (inžiniersky stupeň)
+        </p>
+        <h4>Pracovné skúsenosti:</h4>
+        <p class="lead">
+          <b>feb 2018 - sept 2018 </b>
+          ANASoft (Bratislava)
+          <br> Analýza, návrh a implementácia systému, ktorého hlavnou úlohou bolo prepojiť BlockChain technológiu s digitálnym podpisom.
+          <br> <i>- Java, MySQL, PHP, Android, Go, Solidity, Ethereum</i>
+          <br><br>
+          <a href="#">Zobraziť celý životopis...</a>
+      </div>
+      <div class="col-sm-6 text-center">
+          <h2>Jazykové verzie na stiahnutie</h2>
+          <h4>Životopisy ako PDF súbory sú dostupné v týchto verziách: </h4>
+          <br><br>
+          <p class="lead">Životopis v slovenčine</p>
+          <div class="minimal">
+            <img src="img/slovakia.png" alt="Slovensko">
+          </div>
+          <a href="#">Stiahnuť životopis ako pdf</a>
+          <br><br>
+          <p class="lead">Curriculum vitae in English</p>
+          <div class="minimal">
+            <img src="img/england.png" alt="Slovensko">
+          </div>
+          <a href="#">Download as Pdf</a>
+          <br><br>
+          <p class="lead">Lebenslauf in Deutsch</p>
+          <div class="minimal">
+            <img src="img/germany.png" alt="Slovensko">
+          </div>
+          <a href="#">Pdf herunterladen </a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
 <div class="padding">
   <div class="container">
     <div class="row">
@@ -84,8 +152,96 @@
   </div>
 </div>
 </div>
-</section>
 
+
+<section id="projects">
+<div class="padding">
+<div class="container">
+  <h2>Zaujímavé riešené projekty</h2>
+  <p> Táto časť obsahuje zaujímavé projetky, ktoré som riešil/riešim počas štúdia či v práci.</p>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="projects/bachelor.html" target="_blank">
+          <img src="img/bootstrap.png" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p><b>Bakalárska práca</b></p>
+            <p>Detekcia dopravných prostriedkov</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="projects/diploma.html" target="_blank">
+          <img src="img/bootstrap.png" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p><b>Diplomová práca (riešená)</b></p>
+            <p>Náhľad a evaluácia 3D model vo VR</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="projects/anasoft.html" target="_blank">
+          <img src="img/bootstrap.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p><b>ANASoft</b></p>
+            <p>Využitie technológie BlockChain v digitálnom podpise</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="projects/game.html" target="_blank">
+          <img src="img/bootstrap.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p><b>Školský projekt</b></p>
+            <p>Vytvorenie 3D hry s OpenGl</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="projects/modelea.html" target="_blank">
+          <img src="img/bootstrap.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p><b>Školský projekt</b></p>
+            <p>Model softvérového systému</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="projects/database.html" target="_blank">
+          <img src="img/bootstrap.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p><b>Školský projekt</b></p>
+            <p>Databázová aplikácia</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="projects/team.html" target="_blank">
+          <img src="img/bootstrap.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p><b>Tímový projekt</b></p>
+            <p>Prostredie na vizualizáciu mikrogridu</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+</section>
 
 <div id="fixed">
 </div>
@@ -94,18 +250,18 @@
 <footer class="container-fluid text-center">
   <div class="row">
     <div class="col-sm-4">
-      <h3>Contact us</h3>
+      <h3>Miesto pôsobenia:</h3>
       <br>
-      <h4>Our address</h4>
+      <h4>Bratislava (Slovensko), Žilina (Slovensko)</h4>
     </div>
     <div class="col-sm-4">
-      <h3>Connect</h3>
+      <h3>Nájdete ma na: </h3>
       <a href="mailto:frantisek.durana@azet.sk" class="fa fa-at"></a>
       <a href="https://github.com/FrantisekD" class="fa fa-github"></a>
       <a href="https://www.linkedin.com/in/frantisek-durana/" class="fa fa-linkedin"></a>
     </div>
     <div class="col-sm-4">
-      <img src="img/b.png" class="icon">
+      <img src="img/icon.png" class="icon">
     </div>
   </div>
 
@@ -113,35 +269,3 @@
 </section>
 </body>
 </html>
-
-
-
-
-<!--- iOS Landing Page Fix
-<section>
-	<div class="landing-text">
-		<h1>BOOTSTRAP</h1>
-		<h3>Learn the basic building blocks.</h3>
-		<a href="#" class="btn btn-default btn-lg">Get Started</a>
-	</div>
-	<div class="home-wrap">
-        <div id="home">
-		</div>
-    </div>
-</section>
--->
-
-<!--- iOS Fixed Image Fix
-<figure>
-	<div class="fixed-wrap">
-        <div id="fixed">
-		</div>
-    </div>
-</figure>
--->
-
-
-
-
-
-<!--- Check out my Bootstrap 4 Courses! -->

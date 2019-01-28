@@ -10,12 +10,42 @@ html, body {
   font-size: 1.2em;
 
 }
+.row h4{
+  font-size: 160%;
+  font-weight: bolder;
+}
+
+.row h2{
+  text-align: center;
+}
+
+.minimal{
+  height: 30px;
+  width: 44px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .navbar-brand{
   min-height: 55px;
   padding: 0 15px 5px;
 }
 
+.navbar-brand img{
+  max-height: 55px;
+  float: left;
+  display: inline;
+}
+.navbar-brand p{
+  padding: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.navbar-brand p:hover{
+color: #1c1010;
+}
 .navbar-default .navbar-nav li a {
   color: #e3e5e3
 }
@@ -83,6 +113,13 @@ footer{
 
 }
 
+.carousel-inner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:640px;
+  height:360px;
+}
 
 .hvrbox,
 .hvrbox * {
