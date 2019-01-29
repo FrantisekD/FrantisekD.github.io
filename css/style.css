@@ -67,6 +67,7 @@ color: #1c1010;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  color: #fff;
 }
 
 .landing-text h1{
@@ -83,7 +84,7 @@ color: #1c1010;
 }
 
 #fixed {
-  background: url(../img/background.jpg) no-repeat center center fixed;
+  background: url(../img/background2.jpg) no-repeat center center fixed;
   display: table;
   height: 60%;
   width: 100%;
@@ -91,10 +92,18 @@ color: #1c1010;
   background-size: cover;
 }
 
+#center{
+  text-align: center;
+}
+
+#gray-link{
+  color: gray;
+}
+
 footer{
   width: 100%;
   background-color: #1c1010;
-  padding:  5% 5% 10% 5%;
+  padding:  3%;
   color: #FFFFFF
 }
 
@@ -113,7 +122,7 @@ footer{
 
 }
 .thumbnail img {
-  
+
 }
 
 .carousel-inner{
